@@ -1,0 +1,32 @@
+.info-con {
+  width: 100%;
+  /* height: 100%; */
+  background: rgba(255, 255, 255, 0.9);
+  padding: 80px 0;
+}
+
+.info-title {
+  color: #db9d4a;
+  font-family: "charter-itc";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.info-left {
+  color: #db9d4a;
+  margin-top: 40px;
+  max-width: 800px;
+  display: flex;
+  /* justify-content: center; */
+  /* line change */
+  white-space: pre-wrap;
+  /* line width */
+  line-height: 40px;
+  /* font */
+  font-family: source-han-serif-korean, serif;
+  font-style: normal;
+  /* font-weight: 900; */
+  font-size: 20px;
+}
