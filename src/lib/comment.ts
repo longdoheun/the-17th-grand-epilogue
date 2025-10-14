@@ -1,5 +1,5 @@
 import { GuestBookState } from "@/atoms/GuestBookState";
-import { DATABASE_GB_ID, SERVER, TOKEN, DATABASE_USER_ID } from "./Config";
+import { DATABASE_GB_ID, SERVER, TOKEN } from "./Config";
 import { WriterType } from "@/components/GuestBook/BookForm";
 import axios from "axios";
 import { useRecoilState } from "recoil";
