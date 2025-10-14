@@ -11,10 +11,10 @@
   font-family: var(--font-cinzel);
   /* text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); */
   /* font-weight: bold; */
-  font-size: 56px;
+  font-size: 48px;
   display: inline-block;
   line-height: normal;
-  background: #db9d4a;
+  background: #a06f4f;
   /* background: linear-gradient(93deg, #a06f4f 0.33%, #db9d4a 82.35%); */
   background-clip: text;
   -webkit-background-clip: text;
@@ -26,8 +26,8 @@
   font-style: normal;
   /* font-weight: 900; */
   margin-left: 10px;
-  font-size: 16px;
-  color: #db9d4a;
+  font-size: 14px;
+  color: #a06f4f;
 }
 
 @media (min-width: 390px) {

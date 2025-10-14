@@ -7,12 +7,14 @@ import Footer from "@/Layout/Footer";
 import { useLoading } from "@/hooks/useLoading";
 import Loading from "./loading";
 import ImgPage from "@/components/ImgPage/ImgPage";
-import Location from "@/components/Location/Location";
 import GuestBook from "@/components/GuestBook/GuestBook";
 import Overlay from "@/Layout/Overlay";
 import { useRecoilState } from "recoil";
 import { OverlayState } from "@/atoms/OverlayState";
 import BookForm from "@/components/GuestBook/BookForm";
+import InfoLayout from "@/Layout/InfoLayout";
+import LastYearImgPage from "@/components/ImgPage/LastYearImg";
+import LastPage from "@/components/MainPage/LastPage";
 
 export default function Home() {
   const [isOn, setIsOn] = useRecoilState(OverlayState);
@@ -31,10 +33,10 @@ export default function Home() {
         <Header />
         <Invitation />
         <ImgPage />
-        <Location />
+        <InfoLayout />
+        <LastYearImgPage />
         <GuestBook isMain={false} />
-        <MainPage isMain={false} />
-        <Footer />
+        <LastPage />
       </AppLayout.Scene>
     </>
   );

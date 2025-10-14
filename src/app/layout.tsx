@@ -15,13 +15,13 @@ export const metadata: Metadata = {
   viewport: "width=device-width, initial-scale=1, viewport-fit=cover",
   title: "The 17th Grand Epilogue",
   description:
-    "성균관대학교 글로벌경제학과 17주년게필로그 행사에 여러분을 모십니다.",
+    "성균관대학교 글로벌경제학과 17주년 게필로그 행사에 여러분을 모십니다.",
   openGraph: {
     type: "website",
     url: "https://the-17th-grand-epilogue.vercel.app/",
     title: "The 17th Grand Epilogue",
     description:
-      "성균관대학교 글로벌경제학과 17주년게필로그 행사에 여러분을 모십니다.",
+      "성균관대학교 글로벌경제학과 17주년 게필로그 행사에 여러분을 모십니다.",
     siteName: "Grand Epilogue",
     images: [
       {

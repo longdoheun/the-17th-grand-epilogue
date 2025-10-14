@@ -39,16 +39,16 @@ export default function GuestBook({ isMain }: { isMain: boolean }) {
             }}
             className="gb-exp underlined-text"
           >
-            Click to Write Message
+            클릭하여 방명록 남기기
           </div>
         </section>
       </AppLayout.Main>
       {!isMain ? (
         <>
-          <section className="gb-inner-con">
-            <AppLayout.Main>
+          <AppLayout.Main>
+            <section className="gb-inner-con">
               <div className="gb-card-renderer">
-                {[].slice(0, 6).map((item: any) => (
+                {CardList.slice(0, 6).map((item: any) => (
                   <BookCard
                     key={item.id}
                     id={item.id}
@@ -61,8 +61,9 @@ export default function GuestBook({ isMain }: { isMain: boolean }) {
                   />
                 ))}
               </div>
-            </AppLayout.Main>
-          </section>
+            </section>
+          </AppLayout.Main>
+
           <AppLayout.Main>
             <div
               onClick={() => {
@@ -79,7 +80,7 @@ export default function GuestBook({ isMain }: { isMain: boolean }) {
           <section className="gb-inner-con">
             <AppLayout.Book>
               <div className="gb-renderer-con">
-                {[].map((item: any) => (
+                {CardList.map((item: any) => (
                   <BookCard
                     key={item.id}
                     id={item.id}

@@ -14,11 +14,15 @@ export default function SignUp() {
       <section className="sign-up">
         <SquareBtn
           context="졸업생 신청"
-          onClickEvent={() => router.push("https://naver.me/5vIlgA1V")}
+          onClickEvent={() =>
+            router.push("https://forms.gle/d8TER72UeJTP6iu66")
+          }
         />
         <SquareBtn
           context="재학생 신청"
-          onClickEvent={() => router.push("https://naver.me/5vIlgA1V")}
+          onClickEvent={() =>
+            router.push("https://forms.gle/r9jrgJxuetEBMB8p8")
+          }
         />
       </section>
     </div>

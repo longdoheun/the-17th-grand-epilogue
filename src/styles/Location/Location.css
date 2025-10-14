@@ -6,6 +6,9 @@
     --linear-gradient,
     linear-gradient(180deg, #f8e9bc 0%, #edcc79 100%)
   );
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
 }
 
 .location-title {
@@ -43,7 +46,7 @@
 }
 
 .location-name-main {
-  font-size: 15px;
+  font-size: 18px;
 }
 .location-name-sub {
   font-size: 13px;
@@ -61,56 +64,6 @@
   padding-bottom: 20px;
 }
 
-@media (min-width: 798px) {
-  .map-cover {
-    width: 50%;
-    padding-bottom: 0px;
-  }
-  .location-name {
-    width: 50%;
-  }
-  .location-name-main {
-    font-size: 18px;
-  }
-  .location-name-sub {
-    font-size: 15px;
-  }
-  .-round {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .map-cover {
-    width: 50%;
-  }
-  .location-name {
-    width: 50%;
-  }
-  .location-name-main {
-    font-size: 23px;
-  }
-  .location-name-sub {
-    font-size: 15px;
-  }
-}
-
-@media (min-width: 1920px) {
-  .map-cover {
-    width: 50%;
-  }
-  .location-name {
-    width: 50%;
-  }
-  .location-name-main {
-    font-size: 23px;
-  }
-  .location-name-sub {
-    font-size: 15px;
-  }
-}
 .location-right {
   margin: 40px 0;
   display: flex;
