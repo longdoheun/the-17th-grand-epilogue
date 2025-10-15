@@ -8,10 +8,11 @@
 .info-title {
   color: #db9d4a;
   font-family: "charter-itc";
-  font-size: 48px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  display: flex;
 }
 
 .info-left {
@@ -28,5 +29,5 @@
   font-family: source-han-serif-korean, serif;
   font-style: normal;
   /* font-weight: 900; */
-  font-size: 20px;
+  font-size: 18px;
 }

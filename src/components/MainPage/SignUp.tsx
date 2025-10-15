@@ -3,7 +3,7 @@ import Link from "next/link";
 import SquareBtn from "@/Layout/SquareBtn";
 import { useRouter } from "next/navigation";
 
-export default function SignUp() {
+export default function () {
   const router = useRouter();
   return (
     <div id="form" className="main-page-info">

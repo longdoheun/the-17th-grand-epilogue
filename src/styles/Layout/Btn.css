@@ -2,17 +2,20 @@
   width: 60%;
   /* height: 56px; */
   padding: 10px;
-  border: 1px solid #db9d4a;
+  border: 1px solid #a06f4f;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 28px;
+  background-color: #a06f4f;
+  color: #fff;
 }
 
 .sb-con:hover {
-  background-color: #db9d4a;
-  color: #fff;
+  transition: 0.2s;
+  color: #a06f4f;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .sb-context {
@@ -20,7 +23,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
-  line-height: 13px;
+  line-height: 15px;
   text-align: center;
   /* color: #ffffff; */
 }

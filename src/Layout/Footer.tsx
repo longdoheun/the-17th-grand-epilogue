@@ -6,13 +6,11 @@ import Logo from "@/assets/svg/logo.svg";
 export default function Footer() {
   return (
     <section className="footer">
-      <AppLayout>
-        <Logo className="logo" fill="#8b8b8b" />
-        <div className="copyright">문의 : skku.gecon@gmail.com</div>
-        <div className="copyright">
-          © 2025 Global Economics Student Council, All Rights Reserved
-        </div>
-      </AppLayout>
+      <Logo className="logo" fill="#8b8b8b" />
+      <div className="copyright">문의 : skku.gecon@gmail.com</div>
+      <div className="copyright">
+        © 2025 Global Economics Student Council, All Rights Reserved
+      </div>
     </section>
   );
 }

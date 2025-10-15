@@ -52,7 +52,7 @@
 
 .gb-card-renderer {
   width: 100%;
-  max-width: 1080px;
+  max-width: 1440px;
   display: grid;
   gap: 20px 1rem;
   grid-template-columns: repeat(6, 1fr);
@@ -86,8 +86,9 @@
 }
 
 .bookcard {
-  min-width: 300px;
-  height: 200px;
+  position: relative;
+  min-width: 349px;
+  /* height: 200px; */
   width: auto;
   padding: 10px;
   /* aspect-ratio: 0.8; */

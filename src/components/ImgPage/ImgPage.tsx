@@ -14,7 +14,7 @@ export default function ImgPage() {
             alt={"2025 사제동행 in 수원"}
           />
           <Photo
-            url={"/static/image/gelea.jpg"}
+            url={"/static/image/geLea.jpg"}
             alt={"글로벌경제X글로벌리더 체육대회 '제리전'"}
           />
           <Photo url={"/static/image/saeteo.jpg"} alt={"새내기새로배움터"} />

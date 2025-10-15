@@ -1,0 +1,125 @@
+:root {
+  --primary-color: #db9d4a; /* 공통적으로 사용되는 금색/오렌지-브라운 색상 */
+}
+
+/* -------------------------------------------------------------------------- */
+/* 기본 스타일 (Default Styles for Small Screens) */
+/* -------------------------------------------------------------------------- */
+
+.contrid {
+  width: 100%;
+  margin-top: 60px;
+  display: grid;
+  gap: 14px; /* row, column 모두 30px */
+  grid-template-columns: repeat(2, 1fr); /* 2개의 동일한 너비 열 */
+}
+
+.contricon {
+  /* position: relative; */
+  /* width: auto;
+  aspect-ratio: 1.5; 가로:세로 비율 1:1 (정사각형)*/
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 내부 아이템 수평 중앙 정렬 */
+}
+
+.contri-title {
+  font-weight: bold;
+  font-size: 13px;
+  color: var(--primary-color);
+  font-family: source-han-serif-korean, serif;
+}
+
+.names {
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.each-name {
+  font-family: source-han-serif-korean, serif;
+  font-size: 10px;
+  color: var(--primary-color);
+}
+
+/* -------------------------------------------------------------------------- */
+/* 반응형 디자인 (Responsive Design) */
+/* -------------------------------------------------------------------------- */
+
+/* 450px 이상 */
+@media (min-width: 450px) {
+  .contrid {
+    gap: 14px;
+    /* grid-template-columns: repeat(2, 1fr); 450px 이하와 동일하므로 생략 가능하나 명시적으로 유지 */
+  }
+  .each-name {
+    font-size: 17px;
+  }
+  .contri-title {
+    font-size: 20px;
+  }
+}
+
+/* 600px 이상 */
+@media (min-width: 600px) {
+  /* .contrid는 450px과 동일하여 변경 사항 없음 */
+  .each-name {
+    font-size: 17px;
+  }
+  .contri-title {
+    font-size: 20px;
+  }
+}
+
+/* 768px 이상 */
+@media (min-width: 768px) {
+  .contrid {
+    gap: 50px;
+    /* grid-template-columns: repeat(2, 1fr); 450px 이하와 동일하므로 생략 가능하나 명시적으로 유지 */
+  }
+  .each-name {
+    font-size: 17px;
+  }
+  .contri-title {
+    font-size: 20px;
+  }
+}
+
+/* 1024px 이상 */
+@media (min-width: 1024px) {
+  .contrid {
+    gap: 60px;
+    grid-template-columns: repeat(3, 1fr); /* 3개의 동일한 너비 열로 변경 */
+  }
+  .each-name {
+    font-size: 20px;
+  }
+  .contri-title {
+    font-size: 23px;
+  }
+}
+
+/* 1200px 이상 */
+@media (min-width: 1200px) {
+  /* .contrid는 1024px과 동일하여 변경 사항 없음 */
+  .each-name {
+    font-size: 23px;
+  }
+  .contri-title {
+    font-size: 25px;
+  }
+}
+
+.incon-title {
+  color: #db9d4a;
+  font-family: "charter-itc";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

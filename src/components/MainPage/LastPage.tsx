@@ -8,14 +8,12 @@ export default function LastPage() {
   return (
     <div className="last-con">
       <AppLayout.Invitation>
-        <section className="section-left">
+        <section className="last-con-con">
           <MainText />
-        </section>
-        <section className="section-right">
           <SignUp />
         </section>
+        <Footer />
       </AppLayout.Invitation>
-      <Footer />
     </div>
   );
 }
