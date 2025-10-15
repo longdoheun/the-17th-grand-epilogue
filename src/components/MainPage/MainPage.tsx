@@ -14,7 +14,7 @@ export default function MainPage({ isMain }: MainPageProps) {
       <section className="section-left">
         <MainText />
       </section>
-      <section className="section-right">
+      <section className="main-page-info">
         {isMain ? <MainInfo /> : <SignUp />}
       </section>
     </AppLayout.Invitation>
