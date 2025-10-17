@@ -19,7 +19,7 @@ export default function Program() {
         />
         <ProgramList content={"2. 개회식"} time={"19:30-19:40"} />
         <ProgramList content={"3. GE:pilogue 교류의 장"} time={"19:40-20:40"} />
-        <ProgramList content={"4. 선후배 네트워킹"} time={"20:40-21:20"} />
+        <ProgramList content={"4. 선후배간의 대화"} time={"20:40-21:20"} />
         <ProgramList content={"5. 폐회식"} time={"21:20-21:30"} />
       </div>
     </div>

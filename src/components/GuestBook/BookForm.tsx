@@ -37,28 +37,24 @@ export default function BookForm() {
     <div className="semi-con">
       <section className="wr-bg">
         <div className="wr-con">
-          <span>
-            <Input
-              type="number"
-              name="year"
-              value={writer.year}
-              maxLength={2}
-              onChange={changeInput}
-              placeholder="학번 두 자리 (ex. 22)"
-              autoComplete="on"
-            />
-          </span>
-          <span>
-            <Input
-              type="text"
-              name="name"
-              value={writer.name}
-              onChange={changeInput}
-              maxLength={8}
-              placeholder="닉네임 입력하기"
-              autoComplete="on"
-            />
-          </span>
+          <Input
+            type="number"
+            name="year"
+            value={writer.year}
+            maxLength={2}
+            onChange={changeInput}
+            placeholder="학번 두 자리 (ex. 22)"
+            autoComplete="on"
+          />
+          <Input
+            type="text"
+            name="name"
+            value={writer.name}
+            onChange={changeInput}
+            maxLength={8}
+            placeholder="닉네임 입력하기"
+            autoComplete="on"
+          />
           <div className="label-style">
             <textarea
               className="t-a"
@@ -68,7 +64,7 @@ export default function BookForm() {
               placeholder="동기, 선후배, 교수님께 전하고 싶은 말 남기기"
             />
             <span className="wr-alert">
-              * 비방, 욕설 등의 부적절한 댓글은 동의 없이 삭제될 수 있습니다.
+              * 비방, 욕설 등의 부적절한 메시지는 동의 없이 삭제될 수 있습니다.
             </span>
           </div>
           <SquareBtn
