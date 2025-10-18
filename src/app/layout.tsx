@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Grand Epilogue",
     images: [
       {
-        url: "/static/image/og-image.png",
+        url: "https://the-17th-grand-epilogue.vercel.app/static/image/og-image.png",
       },
     ],
   },
