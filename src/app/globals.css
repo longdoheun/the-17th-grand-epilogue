@@ -99,10 +99,22 @@ body {
   /* padding: 20px 0; */
 }
 
+.-highlight {
+  /* display: flex; */
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 2px #db949d;
+  border-radius: 10px;
+  /* padding: 20px 0; */
+}
+
 .contents-cover {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
   padding: 0 20px;
-  margin: 40px 0px;
+  margin: 20px 0px;
 }
 
 @media (min-width: 600px) {
@@ -118,7 +130,9 @@ body {
   .contents-cover {
     display: flex;
     justify-content: space-between;
+    gap: 60px;
     padding: 40px;
+    margin: 40px 0px;
   }
 }
 

@@ -4,13 +4,14 @@ import Footer from "@/Layout/Footer";
 import Header from "@/Layout/Header";
 import Contribution from "@/components/Contribution/Contribution";
 import Information from "@/components/Invitation/Information";
-import { MOVIE, INFORMATION, PHOTO } from "@/lib/InformationText";
+import { MOVIE, INFORMATION, PHOTO, PARKING } from "@/lib/InformationText";
 
 export default function About() {
   return (
     <>
       <AppLayout.Scene>
         <Header />
+        <Information title={"주차권 제공 안내"} context={PARKING} />
         <Information title={"케이터링"} context={INFORMATION} />
         <Information title={"영상제"} context={MOVIE} />
         <Information title={"포토부스"} context={PHOTO} />

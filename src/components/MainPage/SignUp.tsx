@@ -21,7 +21,7 @@ export default function () {
         <SquareBtn
           context="재학생 신청"
           onClickEvent={() =>
-            router.push("https://forms.gle/r9jrgJxuetEBMB8p8")
+            router.push("https://forms.gle/vBwq1aeJjP8rov1p7")
           }
         />
       </section>

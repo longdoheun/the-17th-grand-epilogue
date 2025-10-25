@@ -2,6 +2,8 @@ import AppLayout from "@/Layout/AppLayout";
 import "@/styles/ImgPage/ImgPage.css";
 import React from "react";
 import Photo from "./Photo";
+import Catering from "@/components/Info/Catering";
+import PhotoBooth from "@/components/Info/PhotoBooth";
 
 export default function LastYearImgPage() {
   return (
@@ -15,6 +17,10 @@ export default function LastYearImgPage() {
           <Photo url={"/static/image/ge4.jpeg"} alt={""} />
         </section>
       </AppLayout.Main>
+      <AppLayout.Highlight>
+        <Catering />
+        <PhotoBooth />
+      </AppLayout.Highlight>
     </div>
   );
 }

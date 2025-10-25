@@ -18,6 +18,10 @@ function round({ children }: AppLayoutProps) {
   return <div className="layout-container -round">{children}</div>;
 }
 
+function highlight({ children }: AppLayoutProps) {
+  return <div className="layout-container -highlight">{children}</div>;
+}
+
 function main({ children }: AppLayoutProps) {
   return <div className="layout-container -main">{children}</div>;
 }
@@ -41,3 +45,4 @@ AppLayout.Theme = theme;
 AppLayout.Overlay = overlay;
 AppLayout.Book = book;
 AppLayout.Round = round;
+AppLayout.Highlight = highlight;

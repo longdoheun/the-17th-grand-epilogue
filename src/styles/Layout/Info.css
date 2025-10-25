@@ -30,6 +30,13 @@
     width: 50%;
     /* padding-bottom: 0px; */
   }
+  .info-cover {
+    width: 45%;
+  }
+
+  .info-name {
+    width: 55%;
+  }
   .program-cover {
     width: 50%;
   }
@@ -44,6 +51,7 @@
   }
   .contents-cover {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding: 0px 40px;
   }
