@@ -14,7 +14,7 @@ export default function PhotoBooth() {
             <Image
               style={{ objectFit: "cover" }}
               fill
-              src={"/static/image/photoFrame.png"}
+              src={"/static/image/photoFrame.jpg"}
               alt={"포토부스"}
             />
           </div>
